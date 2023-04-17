@@ -6,10 +6,11 @@
     box-sizing: border-box;
   }
   body{
-    background-image: url("./imagenes/fondo.jpg");
+    background-color: #171717;
   }
-.ContLogo{
+    .ContLogo{
     display: flex;
+    justify-content: space-between;
 } 
 .logo {
     width: 600px;
@@ -30,32 +31,34 @@
 .slogan{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    border: 2px solid rgb(255, 0, 0) ;
+    justify-content: space-evenly;
 }
 .slogan p{
     -webkit-text-stroke: revert-layer;
     font-family: 'Maven Pro', sans-serif;
-    color: black;
-    position: absolute;
+    color: white;
 }
 .tenemos {
-    font-size: 50px;
+    font-size: 4rem;
+    
     /* top: 50px;
     right: 833px; */
 }
 .equipo {
-    font-size: 201px;
+    font-size: 10rem;
+    margin-top: -40px;
+    text-align: center;
     /* top: 100px;
     right: 400px; */
 }
 .para {
     font-size: 68px;
+    text-align: center;
     /* top:  400px;
     right: 583px; */
 }
 .crecer {
-    font-size: 224px;
+    font-size: 14rem;
     /* top: 500px;
     right: 100px; */
     font-weight: 900;
@@ -63,7 +66,6 @@
 
 /* CARDS */
 .contenedorCard {
-    background-color: #171717;
     margin-left: 5%;
 }
 a {
