@@ -66,3 +66,52 @@
     right: 100px;
     font-weight: 900;
 }
+
+/* CARDS */
+a {
+    color: yellow;
+    text-align: right;
+    display: block;
+    font-size: xx-large;
+}
+
+.title {
+    border-bottom: 1px solid #f22556;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.title h3 {
+    font-size: 3rem;
+    font-style: italic;
+}
+
+h4, p {
+    color: white;
+}
+
+.servicio h4 {
+    font-size: 1.8rem;
+}
+
+.servicio p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: white;
+}
+
+.servicio {
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+
+.servicio:hover {
+    background-color: #f22556;
+}
+.servicio:hover h4, .servicio:hover p {
+    color: #171717;
+}
+.contenedorCard {
+    background-color: #171717;
+}
+/* FINALIZA CARDS */
