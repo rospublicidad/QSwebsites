@@ -5,23 +5,19 @@
     padding: 0;
     box-sizing: border-box;
   }
-.fondo {
-    height: 3000vh;
-    width: 100vw;
-    z-index: -20;
-    position: absolute;
-    top: 0;
-}
-.ContLogo{
-    position: fixed;
-}
+  body{
+    background-color: #171717;
+  }
+    .ContLogo{
+    display: flex;
+    justify-content: space-between;
+} 
 .logo {
     width: 600px;
     border-bottom: 20px solid blueviolet;
 }
 .contacto{
-    /* background-color: aqua; */
-    display: flex;
+   display: flex;
     width: 600px;
     height: 200px;
     justify-content: center;
@@ -33,51 +29,51 @@
     margin: 30px 15px;
 }
 .slogan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.slogan p{
     -webkit-text-stroke: revert-layer;
     font-family: 'Maven Pro', sans-serif;
+    color: white;
 }
 .tenemos {
+    font-size: 4rem;
     
-    position: absolute;
-    font-size: 50px;
-    color: white;
-    top: 100px;
-    right: 833px;
+    /* top: 50px;
+    right: 833px; */
 }
 .equipo {
-    position: absolute;
-    font-size: 201px;
-    color: white;
-    top: 200px;
-    right: 400px;
+    font-size: 10rem;
+    margin-top: -40px;
+    text-align: center;
+    /* top: 100px;
+    right: 400px; */
 }
 .para {
-    position: absolute;
     font-size: 68px;
-    color: white;
-    top:  525px;
-    right: 583px;
+    text-align: center;
+    /* top:  400px;
+    right: 583px; */
 }
 .crecer {
-    position: absolute;
-    font-size: 224px;
-    color: white;
-    top: 675px;
-    right: 100px;
+    font-size: 14rem;
+    /* top: 500px;
+    right: 100px; */
     font-weight: 900;
 }
 
 /* CARDS */
 .contenedorCard {
-    background-color: #171717;
     margin-left: 5%;
 }
-
 a {
     color: yellow;
     text-align: right;
     display: block;
     font-size: xx-large;
+    
 }
 
 .title {
@@ -124,3 +120,14 @@ h4, p {
     color: #171717;
 }
 /* FINALIZA CARDS */
+.copy {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 0;
+    position: absolute;
+}
