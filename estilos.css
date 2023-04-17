@@ -5,20 +5,35 @@
     padding: 0;
     box-sizing: border-box;
   }
-
 .fondo {
     height: 3000vh;
     width: 100vw;
     z-index: -20;
+    position: absolute;
+    top: 0;
+}
+.ContLogo{
+    position: fixed;
 }
 .logo {
     width: 600px;
-    position: fixed;
     border-bottom: 20px solid blueviolet;
+}
+.contacto{
+    /* background-color: aqua; */
+    display: flex;
+    width: 600px;
+    height: 200px;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+}
+.contacto img{
+    width: 100px;
+    margin: 30px 15px;
 }
 .slogan{
     -webkit-text-stroke: revert-layer;
-    
     font-family: 'Maven Pro', sans-serif;
 }
 .tenemos {
