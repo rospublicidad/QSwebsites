@@ -5,23 +5,18 @@
     padding: 0;
     box-sizing: border-box;
   }
-.fondo {
-    height: 3000vh;
-    width: 100vw;
-    z-index: -20;
-    position: absolute;
-    top: 0;
-}
+  body{
+    background-image: url("./imagenes/fondo.jpg");
+  }
 .ContLogo{
-    position: fixed;
-}
+    display: flex;
+} 
 .logo {
     width: 600px;
     border-bottom: 20px solid blueviolet;
 }
 .contacto{
-    /* background-color: aqua; */
-    display: flex;
+   display: flex;
     width: 600px;
     height: 200px;
     justify-content: center;
@@ -32,36 +27,29 @@
     width: 100px;
     margin: 30px 15px;
 }
-.slogan{
+.slogan p{
     -webkit-text-stroke: revert-layer;
     font-family: 'Maven Pro', sans-serif;
+    color: black;
+    position: absolute;
 }
 .tenemos {
-    
-    position: absolute;
     font-size: 50px;
-    color: white;
     top: 100px;
     right: 833px;
 }
 .equipo {
-    position: absolute;
     font-size: 201px;
-    color: white;
     top: 200px;
     right: 400px;
 }
 .para {
-    position: absolute;
     font-size: 68px;
-    color: white;
     top:  525px;
     right: 583px;
 }
 .crecer {
-    position: absolute;
     font-size: 224px;
-    color: white;
     top: 675px;
     right: 100px;
     font-weight: 900;
@@ -72,12 +60,12 @@
     background-color: #171717;
     margin-left: 5%;
 }
-
 a {
     color: yellow;
     text-align: right;
     display: block;
     font-size: xx-large;
+    
 }
 
 .title {
@@ -124,3 +112,14 @@ h4, p {
     color: #171717;
 }
 /* FINALIZA CARDS */
+.copy {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 0;
+    position: absolute;
+}
