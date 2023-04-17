@@ -68,6 +68,11 @@
 }
 
 /* CARDS */
+.contenedorCard {
+    background-color: #171717;
+    margin-left: 5%;
+}
+
 a {
     color: yellow;
     text-align: right;
@@ -77,12 +82,12 @@ a {
 
 .title {
     border-bottom: 1px solid #f22556;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
     color: white;
 }
 
 .title h3 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-style: italic;
 }
 
@@ -91,18 +96,25 @@ h4, p {
 }
 
 .servicio h4 {
-    font-size: 1.8rem;
+    font-size: 2.8rem;
 }
 
 .servicio p {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     margin-top: 10px;
     color: white;
 }
 
 .servicio {
-    padding: 20px;
+    padding: 35px 15px 40px 40px;
     border-bottom: 1px solid white;
+    display: flex;
+}
+
+.servicio-img img{
+    width: 120px;
+    height: 120px;
+    margin: 0 60px;
 }
 
 .servicio:hover {
@@ -110,8 +122,5 @@ h4, p {
 }
 .servicio:hover h4, .servicio:hover p {
     color: #171717;
-}
-.contenedorCard {
-    background-color: #171717;
 }
 /* FINALIZA CARDS */
