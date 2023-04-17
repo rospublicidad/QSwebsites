@@ -27,6 +27,12 @@
     width: 100px;
     margin: 30px 15px;
 }
+.slogan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid rgb(255, 0, 0) ;
+}
 .slogan p{
     -webkit-text-stroke: revert-layer;
     font-family: 'Maven Pro', sans-serif;
@@ -35,23 +41,23 @@
 }
 .tenemos {
     font-size: 50px;
-    top: 100px;
-    right: 833px;
+    /* top: 50px;
+    right: 833px; */
 }
 .equipo {
     font-size: 201px;
-    top: 200px;
-    right: 400px;
+    /* top: 100px;
+    right: 400px; */
 }
 .para {
     font-size: 68px;
-    top:  525px;
-    right: 583px;
+    /* top:  400px;
+    right: 583px; */
 }
 .crecer {
     font-size: 224px;
-    top: 675px;
-    right: 100px;
+    /* top: 500px;
+    right: 100px; */
     font-weight: 900;
 }
 
