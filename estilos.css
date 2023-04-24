@@ -60,6 +60,7 @@
 /* CARDS */
 .contenedorCard {
     margin-left: 5%;
+    margin-top: 5%;
 }
 a {
     color: yellow;
@@ -86,6 +87,9 @@ h4, p {
 .servicio h4 {
     font-size: 2.8rem;
 }
+.servicio > div > h4 {
+    font-family: 'Maven Pro', sans-serif;
+}
 
 .servicio p {
     font-size: 1.5rem;
@@ -98,6 +102,10 @@ h4, p {
     border-bottom: 1px solid white;
     display: flex;
     justify-content: space-between;
+}
+
+.servicio-img {
+    margin-right: 10%;
 }
 
 .servicio-img img{
