@@ -313,3 +313,18 @@ h4, p {
   }
 
   /* FINALIZA CONTACTOS */
+
+
+  /********************************************** RESPONSIVE **********************************************/
+
+  @media (width < 721px) {
+    .ContLogo{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
+    .logo {
+        width: 300px;
+    }
+}
