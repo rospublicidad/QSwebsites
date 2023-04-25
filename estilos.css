@@ -139,7 +139,7 @@ h4, p {
     /* position: absolute; */
     /* top: 50%; */
     /* left: 50%; */
-    width: 400px;
+    width: 35%;
     padding: 40px;
     margin: 30px auto;
     /* transform: translate(-50%, -50%); */
@@ -149,13 +149,18 @@ h4, p {
     border-radius: 10px;
   }
   
-  .login-box h2 {
+  /* .login-box h2 {
     margin: 0 0 30px;
     padding: 0;
     color: #fff;
     text-align: center;
-  }
+  } */
   
+  .login-box form .incolumns {
+    display: flex;
+    justify-content: space-around;
+  }
+
   .login-box .user-box {
     position: relative;
   }
@@ -181,6 +186,18 @@ h4, p {
     pointer-events: none;
     transition: .5s;
   }
+
+  .login-box .user-box textarea {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    /* margin-bottom: 30px; */
+    border: none;
+    border: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
   
   .login-box .user-box input:focus ~ label,
   .login-box .user-box input:valid ~ label {
@@ -201,6 +218,7 @@ h4, p {
     overflow: hidden;
     transition: .5s;
     margin-top: 40px;
+    margin-left: 40%;
     letter-spacing: 4px
   }
   
@@ -295,3 +313,18 @@ h4, p {
   }
 
   /* FINALIZA CONTACTOS */
+
+
+  /********************************************** RESPONSIVE **********************************************/
+
+  @media (width < 721px) {
+    .ContLogo{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
+    .logo {
+        width: 300px;
+    }
+}
